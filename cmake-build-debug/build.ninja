@@ -84,6 +84,18 @@ build CMakeFiles/OJ.dir/0/t1.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionPro
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/0
 
+build CMakeFiles/OJ.dir/chapter1/Init.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter1/Init.cpp || cmake_object_order_depends_target_OJ
+  DEP_FILE = CMakeFiles/OJ.dir/chapter1/Init.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/OJ.dir
+  OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter1
+
+build CMakeFiles/OJ.dir/chapter2/Brute.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter2/Brute.cpp || cmake_object_order_depends_target_OJ
+  DEP_FILE = CMakeFiles/OJ.dir/chapter2/Brute.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/OJ.dir
+  OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter2
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target OJ
@@ -92,7 +104,7 @@ build CMakeFiles/OJ.dir/0/t1.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionPro
 #############################################
 # Link the executable OJ
 
-build OJ: CXX_EXECUTABLE_LINKER__OJ_Debug CMakeFiles/OJ.dir/main.cpp.o CMakeFiles/OJ.dir/0/t1.cpp.o
+build OJ: CXX_EXECUTABLE_LINKER__OJ_Debug CMakeFiles/OJ.dir/main.cpp.o CMakeFiles/OJ.dir/0/t1.cpp.o CMakeFiles/OJ.dir/chapter1/Init.cpp.o CMakeFiles/OJ.dir/chapter2/Brute.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/OJ.dir
   POST_BUILD = :

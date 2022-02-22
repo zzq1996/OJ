@@ -19,7 +19,6 @@ public:
 
     static void swap(int* a,int* b);//交换整数值
 
-
     int gcd(int a,int b); //求两个正整数的最大公约数
 
     int getFactorial(int n);//求n阶乘
@@ -27,6 +26,9 @@ public:
     void hanoi(char x,char y,char z,int n);//汉诺塔
 
     bool isHui(int n);//判断回文数
+
+    void int_to_string(int n,char* str);//整型转字符串
+
 
 
 
