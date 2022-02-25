@@ -9,9 +9,11 @@ using namespace std;
 int main() {
 
 
+
     Brute brute;
-//    brute.b2_1();
-    brute.b2_2();
+    brute.b2_7();
+
+
 
     return 0;
 }

@@ -23,8 +23,17 @@ public:
 
     int getFactorial(int n);//求n阶乘
 
-    void hanoi(char x,char y,char z,int n);//汉诺塔
 
+    /*
+     * @Description 汉诺塔
+     * @params:
+     */
+    void hanoi(char x,char y,char z,int n);
+
+    /*
+     * @Description TODO
+     * @params:
+     */
     bool isHui(int n);//判断回文数
 
     void int_to_string(int n,char* str);//整型转字符串

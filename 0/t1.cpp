@@ -13,6 +13,10 @@
 
 using namespace std;
 
+
+/*
+ * @Description TODO
+ */
 void t1::swap(int* a, int* b) {
 
     //法一：借助中间变量
@@ -28,8 +32,9 @@ void t1::swap(int* a, int* b) {
 }
 
 
-
-
+/*
+ * @Description 求两个正整数的最大公因数
+ */
 int t1::gcd(int a, int b) {
     int d;
     //法一
@@ -47,7 +52,9 @@ int t1::gcd(int a, int b) {
 }
 
 
-
+/*
+ * @Description 汉诺塔
+ */
 void t1::hanoi(char x, char y, char z, int n) {
     if(n==1){
         cout<<"1:"<<x<<"→"<<y<<endl;
@@ -59,6 +66,9 @@ void t1::hanoi(char x, char y, char z, int n) {
 }
 
 
+/*
+ * @Description 回文数
+ */
 bool t1::isHui(int n) {
 
     //法一：翻转后比较
@@ -118,6 +128,10 @@ bool t1::isHui(int n) {
 
 }
 
+
+/*
+ * @Description 求n！
+ */
 int t1::getFactorial(int n) {
     int sum=1;
 
@@ -159,6 +173,10 @@ int t1::getFactorial(int n) {
 
 }
 
+
+/*
+ * @Description TODO
+ */
 void t1::int_to_string(int n, char *str) {
     //char转int：char-‘0’
     //int转char：int+‘0’
