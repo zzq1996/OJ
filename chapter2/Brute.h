@@ -50,17 +50,32 @@ public:
      */
     void b2_6();
 
+
     /*
      * @Description 打印日期
      */
     void b2_7();
+
 
     /*
      * @Description 日期累加
      */
     void b2_8();
 
+    /*
+  * @Description 剩下的树
+  */
+    void b2_9();
 
+    /*
+     * @Description 手机键盘
+     */
+    void b2_10();
+
+    /*
+     * @Description TODO
+     */
+    void b2_11();
 };
 
 

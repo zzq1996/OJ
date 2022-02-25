@@ -11,7 +11,7 @@ int main() {
 
 
     Brute brute;
-    brute.b2_7();
+    brute.b2_11();
 
 
 

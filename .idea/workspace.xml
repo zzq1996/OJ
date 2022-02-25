@@ -12,7 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="王道机试例题2.8">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chapter2/Brute.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/Brute.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2/Brute.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/Brute.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2022-02-22T08-38-00-0710.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/chapter2/Brute.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/chapter2/Brute.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OJ" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OJ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +90,7 @@
       <workItem from="1644821436565" duration="7709000" />
       <workItem from="1645109482550" duration="37000" />
       <workItem from="1645516601697" duration="8755000" />
-      <workItem from="1645534556465" duration="12160000" />
+      <workItem from="1645534556465" duration="16989000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1644841658545</created>

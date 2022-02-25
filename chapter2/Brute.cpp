@@ -205,7 +205,7 @@ int daytab[2][13] = {
 
 void Brute::b2_6() {
     int year=0,month=0,day=0;
-    int count=0;
+    int num=0;
     while(cin>>year>>month>>day) {//接收多组输入数据
 
         /*法一：判瑞年出错；
@@ -229,22 +229,27 @@ void Brute::b2_6() {
        int row= IsLeapYear(year);//判断瑞年，选择对应行
 
         for (int i = 0; i < month; ++i) {
-            count=count+daytab[row][i];
+            num=num+daytab[row][i];
         }
 
-        count=count+day;
-        cout<<count;
+        num=num+day;
+        cout<<num;
     }
 
 
 }
 
 
+/*
+ * @Description 给出年份和一年中的第几天，算出几月几号
+ */
 void Brute::b2_7() {
     int year,month=0,day=0,count;
     while(cin>>year>>count){
+
         int row= IsLeapYear(year);
 
+        //求出月份
         while(count>daytab[row][month]){
             count=count-daytab[row][month];
             month++;
@@ -263,16 +268,127 @@ void Brute::b2_7() {
 }
 
 
-
+/*
+ * @Description 计算一个日期加上若干天后是什么日期
+ */
 void Brute::b2_8() {
-    int year,month,day,num;
-    while (cin>>year>>month>>day>>num){
-
+    int caseNumber,year,month,day,num;//输入数据组数
+    cin>>caseNumber;
+    while (caseNumber--){
+        cin>>year>>month>>day>>num;
         int row= IsLeapYear(year);
 
+        for (int i = 0; i < month; ++i) {
+            num=num+daytab[row][i];
+        }
 
+        num=num+day;//先计算出这一天是该年的第几天
+
+        //确定年数
+        while (num> NumberOfYear(year)){//日期超过了该年
+            num=num- NumberOfYear(year);
+            year++;
+        }
+
+
+
+        month=0;
+        row= IsLeapYear(year);
+        while (num>daytab[row][month]){
+            num=num-daytab[row][month];
+            month++;
+        }
+
+
+        day=num;
+
+        cout<<setw(4)<<setfill('0')<<year
+            <<"-"<<setw(2)<<setfill('0')<<month
+            <<"-"<<setw(2)<<setfill('0')<<day;
+    }
+
+
+    }
+
+    /*
+     * @Description 剩下的树
+     */
+void Brute::b2_9() {
+    int l=0,m=0;
+    bool arr[10001];
+    cin>>l>>m;
+    for (int i = 0; i <= l; ++i) {
+            arr[i]= true;
+    }
+
+    int num=l+1;//树的数量
+
+    while (m--){
+        int left,right;
+        cin>>left>>right;
+        for (int i = left; i <= right; ++i) {//包括端点
+
+            if(arr[i]){
+                arr[i]= false;
+                num--;
+            }
+
+        }
+
+    }
+    cout<<num;
+
+
+}
+
+/*
+ * @Description 手机按键
+ */
+void Brute::b2_10() {
+    int keyboard[26]={1,2,3,
+                      1,2,3,
+                      1,2,3,
+                      1,2,3,
+                      1,2,3,
+                      1,2,3,4,
+                      1,2,3,
+                      1,2,3,4};
+    string str;
+    while (cin>>str){
+        int time=0;
+        for (int i = 0; i < str.size(); ++i) {
+            time = time+keyboard[str[i]-'a'];
+            if(i!=0 &&str[i]-str[i-1]==keyboard[str[i]-'a']-keyboard[str[i-1]-'a']){
+                time=time+2;
+            }
+        }
+        cout<<time;
+    }
+
+}
+
+void Brute::b2_11() {
+    int n=0;
+    while( cin>>n){
+        if(n==0){
+            break;
+        }else{
+            int count=0;
+                while(n!=1){
+                    if(n%2==0){
+                        n=n/2;
+                    }else{
+                        n=(3*n+1)/2;
+                    }
+                    count++;
+            }
+            cout<<count<<endl;
+        }
 
     }
 
 
 }
+
+
+
