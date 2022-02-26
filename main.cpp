@@ -3,13 +3,14 @@
 #include "chapter1/Init.h"
 #include "chapter2/Brute.h"
 #include "chapter3/Sort.h"
+#include "chapter3/Search.h"
 
 
 using namespace std;
 
 int main() {
-    Sort sort1;
-    sort1.b3_3();
+    Search search1;
+    search1.c3_5();
 
 
 

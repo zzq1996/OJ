@@ -11,13 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="chapter 2 finish">
-      <change afterPath="$PROJECT_DIR$/chapter3/Sort.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3/Sort.h" afterDir="false" />
+    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="chapter 3 sort">
+      <change afterPath="$PROJECT_DIR$/chapter3/Search.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter3/Search.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-6f6db16afe73b9534239.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-OJ-Debug-2097525b38509627260e.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/main.cpp.o" afterDir="false" />
@@ -37,6 +35,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/0/t1.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -92,7 +98,7 @@
       <workItem from="1644821436565" duration="7709000" />
       <workItem from="1645109482550" duration="37000" />
       <workItem from="1645516601697" duration="8755000" />
-      <workItem from="1645534556465" duration="21131000" />
+      <workItem from="1645534556465" duration="23112000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1644841658545</created>
@@ -122,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645786599193</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="chapter 3 sort">
+      <created>1645859325839</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1645859325839</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +157,8 @@
     <MESSAGE value="王道机试例题2.2" />
     <MESSAGE value="王道机试例题2.8" />
     <MESSAGE value="chapter 2 finish" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 2 finish" />
+    <MESSAGE value="chapter 3 sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 3 sort" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
