@@ -236,4 +236,46 @@ void t1::int_to_string(int n, char *str) {
 }
 
 
+/*
+ * @Description 约瑟夫环
+ * N个小孩，报到M离开，输出最后离圈的孩子编号
+ */
+void t1::josephus(int N, int M) {
+
+    //将该数组看作循环数组，即数组的最后一个元素in_circle(N-1)下一个元素是in_circle(0)
+    bool in_circle[N];
+    //index表示要报数的小孩的下标，初始值为N-1
+    int num_of_children_remained,index;
+
+    //初始化数组in_circle
+    for(int i=0;i<N;++i){
+        in_circle[i]=true;
+    }
+
+    //开始报数
+    index=N-1;//从编号为0的小孩开始报数，index为前一个小孩的下标
+    num_of_children_remained = N;//报数前圈子中小孩的数量
+    while(num_of_children_remained > 1){
+        int count=0;
+        while(count < M){//对成功的报数进行计数
+            index = (index+1)%N;//计算要报数的小孩的编号
+            if(in_circle[index]){
+                count++;//如果编号为index的小孩在圈子里，则该报数为成功的报数
+            }
+        }
+        in_circle[index] = false;//小孩离开圈子
+        num_of_children_remained--;//圈中小孩数减1
+    }
+
+    //找到最后一个小孩
+    for(index=0 ; index<N ; index++){
+        if(in_circle[index]){
+            break;
+        }
+    }
+    cout<<"The winner is No."<<index<<"\n";
+}
+
+
+
 

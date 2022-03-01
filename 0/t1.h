@@ -31,13 +31,18 @@ public:
     void hanoi(char x,char y,char z,int n);
 
     /*
-     * @Description TODO
+     * @Description 判断回文数
      * @params:
      */
-    bool isHui(int n);//判断回文数
+    bool isHui(int n);
 
     void int_to_string(int n,char* str);//整型转字符串
 
+    /*
+     * @Description 约瑟夫环
+     * 定义一个bool数组
+     */
+    void josephus(int N,int M);
 
 
 
