@@ -11,9 +11,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="chapter 3 sort">
-      <change afterPath="$PROJECT_DIR$/chapter3/Search.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter3/Search.h" afterDir="false" />
+    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="chapter 3 complete">
+      <change afterPath="$PROJECT_DIR$/chapter4/dString.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter4/dString.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
@@ -73,15 +73,10 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunManager">
     <configuration name="OJ" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="OJ" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="OJ">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -98,7 +93,9 @@
       <workItem from="1644821436565" duration="7709000" />
       <workItem from="1645109482550" duration="37000" />
       <workItem from="1645516601697" duration="8755000" />
-      <workItem from="1645534556465" duration="23112000" />
+      <workItem from="1645534556465" duration="27810000" />
+      <workItem from="1645872606184" duration="690000" />
+      <workItem from="1645928388968" duration="6354000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1644841658545</created>
@@ -135,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645859325839</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="chapter 3 complete">
+      <created>1645861587802</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1645861587802</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,7 +162,8 @@
     <MESSAGE value="王道机试例题2.8" />
     <MESSAGE value="chapter 2 finish" />
     <MESSAGE value="chapter 3 sort" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 3 sort" />
+    <MESSAGE value="chapter 3 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 3 complete" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

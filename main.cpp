@@ -4,13 +4,16 @@
 #include "chapter2/Brute.h"
 #include "chapter3/Sort.h"
 #include "chapter3/Search.h"
+#include "chapter4/dString.h"
 
 
 using namespace std;
 
 int main() {
-    Search search1;
-    search1.c3_5();
+    dString search1;
+    search1.d4_5();
+
+
 
 
 
