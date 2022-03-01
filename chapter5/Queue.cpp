@@ -8,9 +8,11 @@
 //
 
 
+#include <iomanip>
 #include "Queue.h"
 #include "queue"
 #include "iostream"
+#include "stack"
 
 using namespace std;
 
@@ -143,8 +145,7 @@ void Queue::e5_3() {
 
         cout<<endl;
 
-
     }
-
-
 }
+
+

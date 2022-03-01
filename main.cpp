@@ -7,13 +7,15 @@
 #include "chapter4/dString.h"
 #include "chapter5/Vector.h"
 #include "chapter5/Queue.h"
+#include "chapter5/Stack.h"
+
 
 
 using namespace std;
 
 int main() {
-    Queue vector;
-    vector.e5_2();
+    Stack vector;
+    vector.e5_6();
 
 
 

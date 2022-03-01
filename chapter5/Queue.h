@@ -35,6 +35,12 @@ public:
      */
     void e5_3();
 
+    /*
+     * @Description 计算器
+     */
+    void e5_4();
+
+
 
 };
 
