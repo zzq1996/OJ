@@ -175,7 +175,7 @@ int t1::getFactorial(int n) {
 
 
 /*
- * @Description TODO
+ * @Description 数字转字符串
  */
 void t1::int_to_string(int n, char *str) {
     //char转int：char-‘0’

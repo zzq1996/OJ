@@ -185,7 +185,7 @@ void Stack::e5_6() {
             }
 
         }
-
+        //结果保留两位有效数字
         cout<<fixed<<setprecision(2)<<data.top();
     }
 
