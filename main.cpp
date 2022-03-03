@@ -1,13 +1,12 @@
 #include <iostream>
-#include "chapter6/Power.h"
-
+#include "chapter7/Greed.h"
 
 
 using namespace std;
 
 int main() {
-    Power b;
-    b.f6_12();
+    Greed b;
+    b.g7_4();
 
     return 0;
 }
