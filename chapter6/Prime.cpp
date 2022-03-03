@@ -57,13 +57,15 @@ void Prime::f6_7() {
  */
 
 const int MAXN=10001;
-vector<int> prime;//保存质数
+
+vector<int> prime1;//保存质数
+
 bool isPrime1[MAXN];//标记数组
 
 
 //素数筛选法求出2-10000内的所有素数。
 // 当输入n时，依次判断1～n这个区间内的素数是否符合题目条件
-void initial(){
+void initial1(){
     for (int i = 0; i < MAXN; ++i) {
         isPrime1[i]= true;
     }
@@ -77,7 +79,7 @@ void initial(){
             continue;
         }
 
-        prime.push_back(i);
+        prime1.push_back(i);
 
         //质数的倍数为非质数，这里从i*i开始标记
         for (int j = i*i; j <MAXN ; j=j+i) {
@@ -91,17 +93,17 @@ void initial(){
 
 
 void Prime::f6_8() {
-    initial();
+    initial1();
     int n;
     while (cin>>n){
 
         bool isOutput= false;//判断是否有输出
 
-        for (int i = 0; i < prime.size() && prime[i] < n; ++i) {
+        for (int i = 0; i < prime1.size() && prime1[i] < n; ++i) {
 
-            if (prime[i] % 10  == 1){
+            if (prime1[i] % 10  == 1){
                 isOutput= true;
-                cout<<prime[i]<<" ";
+                cout<<prime1[i]<<" ";
             }
 
         }
@@ -116,3 +118,5 @@ void Prime::f6_8() {
     }
 
 }
+
+

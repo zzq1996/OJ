@@ -11,18 +11,18 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="chapter 5 finished">
-      <change afterPath="$PROJECT_DIR$/chapter6/Base.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6/Base.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6/Lm.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6/Lm.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6/Prime.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter6/Prime.h" afterDir="false" />
+    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="新增目录和重点">
+      <change afterPath="$PROJECT_DIR$/chapter6/BigInteger.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/BigInteger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/Power.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/Power.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/PrimeFactor.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter6/PrimeFactor.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0/t1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/0/t1.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/Stack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/Stack.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter6/Prime.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/Prime.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter6/Prime.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/Prime.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/main.cpp.o" afterDir="false" />
@@ -108,7 +108,7 @@
       <workItem from="1645534556465" duration="27810000" />
       <workItem from="1645872606184" duration="690000" />
       <workItem from="1645928388968" duration="25108000" />
-      <workItem from="1646203683434" duration="11361000" />
+      <workItem from="1646203683434" duration="21551000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1644841658545</created>
@@ -173,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646135437224</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="新增目录和重点">
+      <created>1646221354487</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1646221354488</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +207,8 @@
     <MESSAGE value="chapter 4 complete" />
     <MESSAGE value="chapter 5 vector queue" />
     <MESSAGE value="chapter 5 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 5 finished" />
+    <MESSAGE value="新增目录和重点" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增目录和重点" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

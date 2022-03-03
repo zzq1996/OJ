@@ -1,13 +1,13 @@
 #include <iostream>
-#include "chapter6/Prime.h"
+#include "chapter6/Power.h"
 
 
 
 using namespace std;
 
 int main() {
-    Prime b;
-    b.f6_8();
+    Power b;
+    b.f6_12();
 
     return 0;
 }
