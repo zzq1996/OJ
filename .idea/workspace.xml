@@ -11,9 +11,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="chapter 6 finished">
-      <change afterPath="$PROJECT_DIR$/chapter7/Greed.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter7/Greed.h" afterDir="false" />
+    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="chapter 7 finished">
+      <change afterPath="$PROJECT_DIR$/chapter8/DivideAndConquer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter8/DivideAndConquer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter8/Recursion.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter8/Recursion.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -102,7 +104,7 @@
       <workItem from="1645534556465" duration="27810000" />
       <workItem from="1645872606184" duration="690000" />
       <workItem from="1645928388968" duration="25108000" />
-      <workItem from="1646203683434" duration="28629000" />
+      <workItem from="1646203683434" duration="31610000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1644841658545</created>
@@ -181,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646293618092</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="chapter 7 finished">
+      <created>1646302525749</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1646302525749</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,7 +219,8 @@
     <MESSAGE value="chapter 5 finished" />
     <MESSAGE value="新增目录和重点" />
     <MESSAGE value="chapter 6 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 6 finished" />
+    <MESSAGE value="chapter 7 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 7 finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

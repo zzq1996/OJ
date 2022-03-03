@@ -1,12 +1,12 @@
 #include <iostream>
-#include "chapter7/Greed.h"
+#include "chapter8/Recursion.h"
 
 
 using namespace std;
 
 int main() {
-    Greed b;
-    b.g7_4();
+    Recursion b;
+    b.h8_1();
 
     return 0;
 }
