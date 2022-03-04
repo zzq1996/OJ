@@ -186,6 +186,18 @@ build CMakeFiles/OJ.dir/chapter8/DivideAndConquer.cpp.o: CXX_COMPILER__OJ_Debug 
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter8
 
+build CMakeFiles/OJ.dir/chapter9/BFS.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter9/BFS.cpp || cmake_object_order_depends_target_OJ
+  DEP_FILE = CMakeFiles/OJ.dir/chapter9/BFS.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/OJ.dir
+  OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter9
+
+build CMakeFiles/OJ.dir/chapter9/DFS.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter9/DFS.cpp || cmake_object_order_depends_target_OJ
+  DEP_FILE = CMakeFiles/OJ.dir/chapter9/DFS.cpp.o.d
+  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk -std=gnu++11
+  OBJECT_DIR = CMakeFiles/OJ.dir
+  OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter9
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target OJ
@@ -194,7 +206,7 @@ build CMakeFiles/OJ.dir/chapter8/DivideAndConquer.cpp.o: CXX_COMPILER__OJ_Debug 
 #############################################
 # Link the executable OJ
 
-build OJ: CXX_EXECUTABLE_LINKER__OJ_Debug CMakeFiles/OJ.dir/main.cpp.o CMakeFiles/OJ.dir/0/t1.cpp.o CMakeFiles/OJ.dir/chapter1/Init.cpp.o CMakeFiles/OJ.dir/chapter2/Brute.cpp.o CMakeFiles/OJ.dir/chapter3/Sort.cpp.o CMakeFiles/OJ.dir/chapter3/Search.cpp.o CMakeFiles/OJ.dir/chapter4/dString.cpp.o CMakeFiles/OJ.dir/chapter5/Vector.cpp.o CMakeFiles/OJ.dir/chapter5/Queue.cpp.o CMakeFiles/OJ.dir/chapter5/Stack.cpp.o CMakeFiles/OJ.dir/chapter6/Base.cpp.o CMakeFiles/OJ.dir/chapter6/Lm.cpp.o CMakeFiles/OJ.dir/chapter6/Prime.cpp.o CMakeFiles/OJ.dir/chapter6/PrimeFactor.cpp.o CMakeFiles/OJ.dir/chapter6/Power.cpp.o CMakeFiles/OJ.dir/chapter6/BigInteger.cpp.o CMakeFiles/OJ.dir/chapter7/Greed.cpp.o CMakeFiles/OJ.dir/chapter8/Recursion.cpp.o CMakeFiles/OJ.dir/chapter8/DivideAndConquer.cpp.o
+build OJ: CXX_EXECUTABLE_LINKER__OJ_Debug CMakeFiles/OJ.dir/main.cpp.o CMakeFiles/OJ.dir/0/t1.cpp.o CMakeFiles/OJ.dir/chapter1/Init.cpp.o CMakeFiles/OJ.dir/chapter2/Brute.cpp.o CMakeFiles/OJ.dir/chapter3/Sort.cpp.o CMakeFiles/OJ.dir/chapter3/Search.cpp.o CMakeFiles/OJ.dir/chapter4/dString.cpp.o CMakeFiles/OJ.dir/chapter5/Vector.cpp.o CMakeFiles/OJ.dir/chapter5/Queue.cpp.o CMakeFiles/OJ.dir/chapter5/Stack.cpp.o CMakeFiles/OJ.dir/chapter6/Base.cpp.o CMakeFiles/OJ.dir/chapter6/Lm.cpp.o CMakeFiles/OJ.dir/chapter6/Prime.cpp.o CMakeFiles/OJ.dir/chapter6/PrimeFactor.cpp.o CMakeFiles/OJ.dir/chapter6/Power.cpp.o CMakeFiles/OJ.dir/chapter6/BigInteger.cpp.o CMakeFiles/OJ.dir/chapter7/Greed.cpp.o CMakeFiles/OJ.dir/chapter8/Recursion.cpp.o CMakeFiles/OJ.dir/chapter8/DivideAndConquer.cpp.o CMakeFiles/OJ.dir/chapter9/BFS.cpp.o CMakeFiles/OJ.dir/chapter9/DFS.cpp.o
   FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.1.sdk
   OBJECT_DIR = CMakeFiles/OJ.dir
   POST_BUILD = :

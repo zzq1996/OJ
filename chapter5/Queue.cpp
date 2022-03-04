@@ -31,9 +31,6 @@ void Queue::useOfQueue() {
         <<",queue size:"<<mQueue.size();
     //从队尾删除元素
     mQueue.pop();
-
-
-
 }
 
 /*
