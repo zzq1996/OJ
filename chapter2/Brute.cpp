@@ -367,6 +367,9 @@ void Brute::b2_10() {
 
 }
 
+
+
+
 void Brute::b2_11() {
     int n=0;
     while( cin>>n){

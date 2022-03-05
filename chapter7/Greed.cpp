@@ -206,11 +206,9 @@ void Greed::g7_4() {
 
 
 /*
- * @Description TODO
+ * @Description 在岛之间架桥
  */
 void Greed::g7_5() {
-
-
 
 
 

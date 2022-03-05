@@ -73,7 +73,7 @@ public:
     void b2_10();
 
     /*
-     * @Description TODO
+     * @Description XXX定律
      */
     void b2_11();
 };

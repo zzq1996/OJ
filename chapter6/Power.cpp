@@ -19,7 +19,7 @@ using namespace std;
  */
 
 /*
- * @Description TODO
+ * @Description 返回最后三位数
  * mod:取最后mod位
  */
 int fastExponentiation(int a,int b,int mod){

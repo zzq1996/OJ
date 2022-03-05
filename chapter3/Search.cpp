@@ -54,6 +54,11 @@ bool binarySearch(const int *arr,int n,int target){
 }
 
 
+/*
+ * @Description 查找
+ * 输入：数组 a[1...n]、查找次数m，查找数字b[1...m]
+ *
+ */
 void Search::c3_5() {
 
     //保存输入的数组

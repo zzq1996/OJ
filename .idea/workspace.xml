@@ -11,17 +11,30 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="chapter 8 finished">
-      <change afterPath="$PROJECT_DIR$/chapter9/BFS.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter9/BFS.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter9/DFS.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter9/DFS.h" afterDir="false" />
+    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="chapter 9 finished">
+      <change afterPath="$PROJECT_DIR$/chapter10/BinarySearchTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/BinarySearchTree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/BinaryTree.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/BinaryTree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/HashTable.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/HashTable.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/PriorityQueue.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter10/PriorityQueue.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0/t1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/0/t1.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/Queue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/Queue.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2/Brute.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/Brute.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter2/Brute.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/Brute.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3/Search.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/Search.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3/Search.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/Search.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3/Sort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/Sort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3/Sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/Sort.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter6/Power.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/Power.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter7/Greed.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/Greed.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/chapter2/Brute.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/chapter2/Brute.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/OJ" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OJ" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
@@ -72,12 +85,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
@@ -106,7 +120,11 @@
       <workItem from="1645872606184" duration="690000" />
       <workItem from="1645928388968" duration="25108000" />
       <workItem from="1646203683434" duration="32010000" />
-      <workItem from="1646368040271" duration="14298000" />
+      <workItem from="1646368040271" duration="19807000" />
+      <workItem from="1646461501733" duration="1866000" />
+      <workItem from="1646463710054" duration="48000" />
+      <workItem from="1646463791764" duration="586000" />
+      <workItem from="1646464420501" duration="11198000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1644841658545</created>
@@ -199,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646309931854</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="chapter 9 finished">
+      <created>1646389021110</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1646389021110</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +255,8 @@
     <MESSAGE value="chapter 6 finished" />
     <MESSAGE value="chapter 7 finished" />
     <MESSAGE value="chapter 8 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 8 finished" />
+    <MESSAGE value="chapter 9 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 9 finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

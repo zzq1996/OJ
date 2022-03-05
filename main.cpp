@@ -1,12 +1,12 @@
 #include <iostream>
-#include "chapter9/DFS.h"
+#include "chapter10/HashTable.h"
 
 
 using namespace std;
 
 int main() {
-    DFS b;
-    b.I9_5();
+    HashTable b;
+    b.J10_7();
 
     return 0;
 }

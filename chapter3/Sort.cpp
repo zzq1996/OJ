@@ -31,7 +31,10 @@ void Sort::b3_1() {
 
 /*
  * @Description 成绩排序
+ * 指定排序方式
  */
+
+
 //封装为一个结构体
 struct Student1{
     int number;
@@ -62,7 +65,8 @@ void Sort::b3_2() {
 }
 
 /*
- * @Description TODO
+ * @Description 成绩排序
+ * 指定排序方式
  */
 
 //定义结构体，多定义一个变量满足题意
