@@ -1,12 +1,12 @@
 #include <iostream>
-#include "chapter10/HashTable.h"
+#include "chapter11/CriticalPath.h"
 
 
 using namespace std;
 
 int main() {
-    HashTable b;
-    b.J10_9();
+    CriticalPath b;
+    b.K11_11();
 
     return 0;
 }
