@@ -81,14 +81,16 @@ void HashTable::J10_0() {
  * 由学号输出学生信息
  *
  * 虽然是查找问题，但可由学号唯一确定学生，故采用map保存学生信息
+ * 该题为单一映射
  */
 void HashTable::J10_7() {
 
     map<string,string> student;
+
+    //输入学生信息
     int n=0;
     cin>>n;//保存学生个数
     getchar();//吃掉回车
-
     for (int i = 0; i < n; ++i) {
         string str;
         getline(cin,str);//保存完整学生信息
@@ -96,9 +98,9 @@ void HashTable::J10_7() {
         int pos=str.find(" ");//分界点
         string key=str.substr(0,pos);//保存学号作为关键字
         student[key]=str;//向映射student添加元素，其中学号作为key，完整信息作为value
-
     }
 
+    //输出学生信息
     int m=0;
     cin>>m;
     for (int i = 0; i < m; ++i) {
@@ -109,9 +111,7 @@ void HashTable::J10_7() {
             answer="No answer!";
         }
         cout<<answer<<endl;
-
     }
-
 
 }
 
@@ -119,8 +119,50 @@ void HashTable::J10_7() {
 
 /*
  * @Description 魔咒词典
+ * 输入：[魔法名字] 魔法功能（词典中均唯一）
+ * 输出：由名字/功能输出功能/名字
  */
 void HashTable::J10_8() {
+
+    string str;
+
+    map<string,string> dictionary;
+
+
+    //输入词典
+    while (getline(cin,str)){//整行接收字典
+
+        if (str=="@END@"){
+            break;
+        }
+
+        int pos=str.find("]");//魔咒与功能的分界点，string下标从0开始
+        string key=str.substr(0,pos+1);//取出魔咒
+        string value=str.substr(pos+2);//取出功能
+
+        //为了实现双射，同时保存魔咒与功能
+        //substr(int pos,int len),pos：开始下标；len：长度
+        dictionary[key]=value;
+        dictionary[value]=key;
+
+    }
+
+    //输出结果
+    int n=0;
+    cin>>n;
+    getchar();
+    while (n--){
+        string key;
+        getline(cin,key);
+        string answer=dictionary[key];
+        if (answer==""){
+            answer="what?";
+        }else if (answer[0]=='['){
+            answer=answer.substr(1,answer.size()-2);
+        }
+
+        cout<<answer<<endl;
+    }
 
 
 }
@@ -128,7 +170,60 @@ void HashTable::J10_8() {
 
 /*
  * @Description 字串计算
+ * 输入：01字符串，输出次数大于1的每个字串出现的个数，并按字典序排序
+ *
+ * 将字串当关键字（key），其出现的次数作为映射值（value），遍历整个字符串中的字串，每次将字串的映射值数加1
+ *
+ * map底层为红黑树，在内部仍会按关键字进行排序
  */
 void HashTable::J10_9() {
+
+    string str;
+
+    while (cin>>str){
+
+        map<string,int> number;
+
+        //注意这种依次取str的字串的方法
+        for (int i = 0; i <= str.size(); ++i) {
+            for (int j = 0; j < i; ++j) {
+                string key=str.substr(j,i-j);
+//                cout<<"i:"<<i<<",j:"<<j<<",key:"<<key<<endl;
+                /*
+                 * 字符串：10101
+                        i:1,j:0,key:1
+                        i:2,j:0,key:10
+                        i:2,j:1,key:0
+                        i:3,j:0,key:101
+                        i:3,j:1,key:01
+                        i:3,j:2,key:1
+                        i:4,j:0,key:1010
+                        i:4,j:1,key:010
+                        i:4,j:2,key:10
+                        i:4,j:3,key:0
+                        i:5,j:0,key:10101
+                        i:5,j:1,key:0101
+                        i:5,j:2,key:101
+                        i:5,j:3,key:01
+                        i:5,j:4,key:1
+                */
+
+                number[key]++;//映射值+1
+            }
+
+        }
+
+        //定义迭代器，遍历输出value>1的key
+        map<string,int>::iterator it;
+        for (it=number.begin();it!= number.end();++it) {
+            if (1<it->second){
+                cout<<it->first<<" "<<it->second<<endl;
+            }
+        }
+
+
+
+    }
+
 
 }

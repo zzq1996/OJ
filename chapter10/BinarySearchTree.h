@@ -24,7 +24,7 @@ public:
     /*
      * @Description 二叉排序树
      */
-    __attribute__((unused)) static void J10_3();
+    void J10_3();
 
 
     /*

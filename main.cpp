@@ -6,7 +6,7 @@ using namespace std;
 
 int main() {
     HashTable b;
-    b.J10_7();
+    b.J10_9();
 
     return 0;
 }
