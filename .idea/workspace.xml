@@ -11,18 +11,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="chapter 10 finished">
-      <change afterPath="$PROJECT_DIR$/chapter11/CriticalPath.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/CriticalPath.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/SSSP.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/SSSP.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/TopologicalSort.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/TopologicalSort.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/UnionFind.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter11/UnionFind.h" afterDir="false" />
+    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="chapter 11 finished">
+      <change afterPath="$PROJECT_DIR$/chapter12/DynamincProgramming.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter12/DynamincProgramming.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/CriticalPath.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/CriticalPath.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/main.cpp.o" afterDir="false" />
@@ -87,16 +82,21 @@
     <option name="showLigatures" value="true" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OJ" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="OJ" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="OJ">
+    <configuration name="OJ" type="CMakeRunConfiguration" factoryName="Application" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="OJ" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="OJ">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="CMake Application.OJ" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -119,7 +119,8 @@
       <workItem from="1646463791764" duration="586000" />
       <workItem from="1646464420501" duration="11905000" />
       <workItem from="1646525411866" duration="464000" />
-      <workItem from="1646528613528" duration="21395000" />
+      <workItem from="1646528613528" duration="21546000" />
+      <workItem from="1646721461336" duration="12319000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1644841658545</created>
@@ -233,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646531516304</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="chapter 11 finished">
+      <created>1646569045483</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1646569045483</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +275,8 @@
     <MESSAGE value="chapter 9 finished" />
     <MESSAGE value="Sat Mar  5 21:16:59 CST 2022" />
     <MESSAGE value="chapter 10 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 10 finished" />
+    <MESSAGE value="chapter 11 finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="chapter 11 finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

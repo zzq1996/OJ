@@ -123,6 +123,10 @@ void CriticalPath::K11_10() {
 
 
 
+
+
+
+
 /*
  * @Description 输出最晚完成实验的时间
  */
@@ -132,15 +136,19 @@ const int INF2=INT_MAX;
 const int MOD=1e9+7;
 
 vector<int> C_graph2[C_MAX2];
+
 int C_inDegree2[C_MAX2];//入度
+
 long long earliest2[C_MAX2];//最早开始时间
 long long latest2[C_MAX2];//最晚开始时间
 long long time2[C_MAX2];//花费时间
 
 
 long long criticalPath2(int n){
+
     vector<int> topology;//拓扑排序
     queue<int> node;
+
     for (int i = 1; i <= n; ++i) {
         if (C_inDegree2[i] == 0){
             node.push(i);
@@ -148,6 +156,7 @@ long long criticalPath2(int n){
     }
 
     long long totalTime=0;//总耗时
+
     while (!node.empty()){
 
         int u=node.front();
@@ -155,6 +164,7 @@ long long criticalPath2(int n){
         node.pop();
 
         for (int i = 0; i < C_graph2[u].size(); ++i) {
+
             int v=C_graph2[u][i];
             earliest2[v]= max(earliest2[v],earliest2[u]+ time2[u]);
             C_inDegree2[v]--;
@@ -191,7 +201,7 @@ long long criticalPath2(int n){
 /*
  * @Description 主程序
  * 输入：
- * 7 5
+ *  7 5
     11 20 17 10 11 17 17
     5 4
     6 1
@@ -208,6 +218,7 @@ void CriticalPath::K11_11() {
 
     int n=0,m=0;
     while (cin>>n>>m){
+
         memset(C_graph2,0,sizeof(C_graph2));
         memset(earliest2,0,sizeof(earliest2));
         memset(latest2,0,sizeof(latest2));
@@ -216,11 +227,13 @@ void CriticalPath::K11_11() {
 
 
         for (int i = 1; i <= n; ++i) {
+//            scanf("%lld",&time2[i]);
             cin>>time2[i];
         }
 
         while (m--){
             int from,to;
+//            scanf("%d%d",&from,&to);
             cin>>from>>to;
             C_graph2[from].push_back(to);
             C_inDegree2[to]++;
