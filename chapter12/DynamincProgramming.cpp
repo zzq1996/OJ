@@ -319,16 +319,48 @@ void DynamincProgramming::L12_6() {
 
 
 /*
- * @Description TODO
+ * @Description 点菜问题
  */
 void DynamincProgramming::L12_7() {
 
+    int MAX=100;
+    int dp[MAX];
+    int v[MAX];//物品价值
+    int w[MAX];//物品重量
+
+    int n=0,m=0;//n件物品，m容量的背包
+
+    while (cin>>n>>m){
+
+
+        for (int i = 0; i < n; ++i) {
+//            scanf("%d%d",&w[i],&v[i]);
+            cin>>w[i]>>v[i];
+        }
+
+        memset(dp,0,sizeof(dp));
+//        for (int i = 0; i <= m; ++i) {
+//            dp[i]=0;
+//        }
+
+        for (int i = 0; i < n; ++i) {
+            for (int j = m; j >= w[i]; --j) {
+                dp[j]= max(dp[j],dp[j-w[i]]+v[i]);
+            }
+        }
+
+        cout<<dp[m]<<endl;
+
+    }
 }
 
 /*
- * @Description TODO
+ * @Description Piggy-Bank
  */
 void DynamincProgramming::L12_8() {
+
+
+
 
 }
 

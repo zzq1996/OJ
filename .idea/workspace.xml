@@ -11,19 +11,15 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="chapter 11 finished">
-      <change afterPath="$PROJECT_DIR$/chapter12/DynamincProgramming.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter12/DynamincProgramming.h" afterDir="false" />
+    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="LCS finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter11/CriticalPath.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/CriticalPath.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter12/DynamincProgramming.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter12/DynamincProgramming.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/main.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/OJ" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OJ" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,11 +83,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="CMake Application.OJ" />
@@ -120,7 +111,11 @@
       <workItem from="1646464420501" duration="11905000" />
       <workItem from="1646525411866" duration="464000" />
       <workItem from="1646528613528" duration="21546000" />
-      <workItem from="1646721461336" duration="12319000" />
+      <workItem from="1646721461336" duration="12354000" />
+      <workItem from="1646804995587" duration="219000" />
+      <workItem from="1646807643604" duration="8000" />
+      <workItem from="1646808403522" duration="2477000" />
+      <workItem from="1646812733816" duration="1000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1644841658545</created>
@@ -241,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646569045483</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="LCS finished">
+      <created>1646745225908</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1646745225908</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +278,8 @@
     <MESSAGE value="Sat Mar  5 21:16:59 CST 2022" />
     <MESSAGE value="chapter 10 finished" />
     <MESSAGE value="chapter 11 finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="chapter 11 finished" />
+    <MESSAGE value="LCS finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="LCS finished" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
