@@ -20,7 +20,11 @@ void Sort::b3_1() {
     for (int i = 0; i < n; ++i) {
         cin>>arr[i];
     }
+
     sort(&arr[0],&arr[0]+n);//输入起始地址和结束地址，默认升序排序
+
+    sort(arr,arr+n,greater<int>());//降序排序
+
     for (int i = 0; i < n; ++i) {
         cout<<arr[i]<<" ";
     }

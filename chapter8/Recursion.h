@@ -27,6 +27,11 @@ public:
      */
     void h8_2();
 
+    /*
+     * @Description 母牛问题
+     */
+    void h8_3();
+
 };
 
 

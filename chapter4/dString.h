@@ -3,10 +3,6 @@
 * @create 2022/2/26 15:48
 */
 
-//
-// Created by zhang zhiqiang on 2022/2/26.
-//
-
 
 #ifndef OJ_DSTRING_H
 

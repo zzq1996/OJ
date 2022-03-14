@@ -77,7 +77,7 @@ bool t1::isHui(int n) {
     //翻转
     while(n!=0)
     {
-        remainder=n%10;
+        remainder = n%10;
         reversedInteger = reversedInteger*10+remainder;
         n=n/10;
         cout<<n<<""<<remainder<<""<<reversedInteger<<endl;
@@ -125,6 +125,15 @@ bool t1::isHui(int n) {
     }
     return r;
 
+
+    //法三：用字符串保存输入的整数，再比较
+    string str;
+    while (cin>>str){
+        for (int i = str.size()-1; i >=0 ; --i) {
+            cout<<str[i];
+        }
+        cout<<endl;
+    }
 
 }
 

@@ -77,6 +77,8 @@ BST* insert(BST* root,int x,int father){
 
 
 
+
+
 /*
  * @Description 将输入整数建立BST，并遍历输出
  */

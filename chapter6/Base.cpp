@@ -44,17 +44,28 @@ void Base::f6_1() {
  * 用字符串模拟数字，对字符串模拟的数字进行对2取模和对2整除运算
  * ——取余：直接用最低位对2取模
  * ——整除：定义函数完成
- * char转int：char-‘0’
+ *  char转int：char-‘0’
     int转char：int+‘0’
  *
  */
 
 /*
  * @Description 重写一个函数完成字符串的除法
- * 对字符串str进行除2运算，返回pos位置后的str字串即整除后的整数部分
+ * 对字符串str进行除2运算
+ *
+ * 返回的字符串：pos位置后的str字串即整除后的整数部分
+ *
  * string字符串从0开始
- * 输入： cout<<divide("253783",2);
- * 输出：126891
+ *
+ * 输入： cout<<divide("12345",2);
+ * 输出：current:1,str[0]:0,reminder:1
+        current:12,str[1]:6,reminder:0
+        current:3,str[2]:1,reminder:1
+        current:14,str[3]:7,reminder:0
+        current:5,str[4]:2,reminder:1
+        str:06172
+        pos:1
+        6172
  *
  */
 
@@ -66,18 +77,19 @@ string divide(string str,int x){
     for (int i = 0; i < str.size(); ++i) {
 
         int current=reminder*10+str[i]-'0';
-
+//        cout<<"current:"<<current;
         str[i]=current / x+'0';//str[i]保存的是整除2后的数
-
+//        cout<<",str["<<i<<"]:"<<str[i];
         reminder = current % x;//若不能整除，则保留余数
+//        cout<<",reminder:"<<reminder<<endl;
     }
 
     int pos=0;
-
+//    cout<<"str:"<<str<<endl;
     while(str[pos]=='0'){//寻找首个非0下标
         pos++;
     }
-
+//    cout<<"pos:"<<pos<<endl;
     return str.substr(pos);//删除前置多余0
 
 }

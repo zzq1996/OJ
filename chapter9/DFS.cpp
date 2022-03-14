@@ -59,6 +59,9 @@ bool DFS1(int x,int y,int step,string ans){
     return false;
 }
 
+/*
+ * @Description 测试程序
+ */
 void DFS::I9_3() {
     int n,caseNumber=0;
     cin>>n;
@@ -146,7 +149,9 @@ bool DFS2(int sum,int number,int position){
 
 
 
-
+/*
+ * @Description 测试程序
+ */
 void DFS::I9_4() {
 
     int n;
@@ -183,6 +188,11 @@ void DFS::I9_4() {
     }
 }
 
+
+
+
+
+
 /*
  * @Description 在8*8的棋盘上放8个皇后，使其不相互攻击
  * 法一 枚举：
@@ -191,38 +201,125 @@ void DFS::I9_4() {
  *  法二 组合：
  *      ——从64个格子中选8个格子
  * 回溯法（backtracking）：一边生成可能的排列，一边检查
- *      ——恰好每行每列各放置一个皇后，用C[x]表示第x行皇后的列编号，则变成全排列生成问题
+ *      ——结果一定是每行每列各放置一个皇后，
+ *          用C[x]表示第x行皇后的列编号，则变成全排列生成问题
  *      ——递归函数不再调用它自身，而是返回上一层调用
  */
 
+int C[8];//保存问题的解
 
 void search(int cur){
-    int tot=0,n=8;
-    int C[8];
-    bool vis[8][8];//表示已经放置的皇后占据了哪些行、列、对角线
-    memset(vis, false,sizeof (vis));
-    if (cur==n){
-        tot++;
-    } else{
+
+    int n=8;
+
+
+
+    bool vis[n][n];//表示已经放置的皇后占据了哪些行、列、对角线
+
+    memset(vis, false,8);//初始化数组
+
+    if(cur<n){
         for (int i = 0; i < n; ++i) {
-            //利用二维数组直接判断
-            if(!vis[0][i] && !vis[1][cur+i] && !vis[2][cur-i+n]){
-                C[cur]=i;//将第一个皇后放在第一行第一列
-                vis[0][i]=vis[1][cur+i]=vis[2][cur-i+n]= true;
+            bool ok= true;
+            C[cur]=i;
+            for (int j = 0; j < cur; ++j) {
+                if ( C[cur]==C[j] || cur-C[cur]==j-C[j] || cur+C[cur]==j+C[j] ){
+                    ok= false;
+                    break;
+                }
+            }
+            if (ok){
                 search(cur+1);
-                vis[0][i]=vis[1][cur+i]=vis[2][cur-i+n]= false;
             }
         }
 
     }
 
-    for (int i = 0; i < sizeof C; ++i) {
-        cout<<C[i]<<endl;
-    }
+
+
 }
+
+
+
+///*
+// * @Description 八皇后（邓ds，p100）
+// *
+// * 定义皇后，通过重载判等运算符，实现对皇后位置是否冲突的便捷判断
+// *
+// *
+// */
+//
+//struct Queen{
+//   int x,y;//皇后在棋盘上的位置坐标
+//
+//   //构造函数
+//   Queen(int xx,int yy){
+//       this->x=xx;
+//       this->y=yy;
+//   }
+//
+//
+//   //重载"=="
+//   bool operator== (Queen const& q) const{
+//       return (x == q.x)//行冲突
+//                ||(y == q.y)//列冲突
+//                ||(x+y == q.x+q.y)//沿正对角线冲突
+//                ||(x-y == q.x-q.y);//沿反对角线冲突
+//   }
+//
+//   //重载"！="
+//   bool operator!= (Queen const& q) const{
+//
+//       return !(*this==q);
+//
+//   }
+//
+//};
+//
+///*
+// * @Description N皇后算法（迭代版）
+// *
+// * 采用试探/回溯的策略。借助栈solu记录查找的结果（各皇后的列数）
+// *
+// */
+//
+//void placeQueens(int n){
+//    int nCheck=0,nSolu=0;
+//
+//    stack<Queen> solu;//存放（部分）解的栈
+//
+//    Queen q(0,0);
+//    do {
+//        if (n<= solu.size() || n<=q.y){
+//            q=solu.top();
+//            q.y++;
+//        }else{
+//            while ( (q.y<n) && (0<=solu.find(q)) ){
+//                q.y++;
+////                nCheck++;
+//            }
+//            if (n>q.y){
+//                solu.push(q);
+//                if (n<= solu.size()){
+//                    nSolu++;
+//                }
+//
+//                q.x++;
+//                q.y=0;
+//            }
+//
+//        }
+//    } while ( (0<q.x) ||(q.y<n) );
+//
+//
+//}
+
 
 void DFS::I9_5() {
 
-//    search(0);
+    search(0);
+    for (int i = 0; i < 8; ++i) {
+        cout<<C[i]<<endl;
+    }
 
 }

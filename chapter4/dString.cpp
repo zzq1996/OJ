@@ -3,9 +3,6 @@
 * @create 2022/2/26 15:48
 */
 
-//
-// Created by zhang zhiqiang on 2022/2/26.
-//
 
 #include "string"
 #include "dString.h"

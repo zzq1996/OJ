@@ -65,3 +65,74 @@ void Recursion::h8_2() {
     }
 
 }
+
+/*
+ * @Description 母牛问题
+ *
+ * 问题描述：有一头母牛，它每年年初生一头小母牛。每头小母牛从第四个年头开始，每年年初也生一头小母牛。请编程实现在第n年的时候，共有多少头母牛？
+ *
+ * 解题思路：关键是找到年数与母牛数量的关系
+ *  —— 第n年的母牛数量=第（n-1）年的母牛数+第（n-3）年母牛数
+ *  —— 注意画出生成图的方式
+ *
+ * 法一：递归
+ *
+ *
+ * 法二：使用数组记录第i年的母牛数量
+ *  —— 仍然用母牛数量公式构造数组
+ *
+ *
+ */
+
+/*
+ * @Description 定义递归函数，返回第year年的母牛数量
+ */
+int num_of_cow1(int year){
+
+    if (year==1){
+        return 1;
+    }else if (year==2){
+        return 2;
+    }else if (year==3){
+        return 3;
+    }else if (year==4){
+        return 4;
+    } else{
+        return num_of_cow1(year-1)+ num_of_cow1(year-3);
+    }
+
+}
+
+/*
+ * @Description 使用数组记录第i年的母牛数量
+ */
+int num_of_cow2(int year){
+
+    //初始化记录母牛数量的数组
+    int numOfCow[100]={0,1,2,3,4};
+
+    //构造数组
+    for (int i = 5; i <100 ; ++i) {
+        numOfCow[i]=numOfCow[i-1]+numOfCow[i-3];
+    }
+
+    return  numOfCow[year];
+
+}
+
+/*
+ * @Description 主程序
+ * 输入0退出
+ */
+void Recursion::h8_3() {
+    int year=0;
+
+    while (cin>>year){
+        if (year==0){
+            break;
+        }else{
+            cout<<num_of_cow2(year)<<endl;
+        }
+    }
+
+}

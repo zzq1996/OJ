@@ -39,9 +39,14 @@ struct TreeNode{
 
 /*
  * @Description 递归建立二叉树
+ *
+ *
  * position参数的类型是整型引用，而非整型变量
  *      ——引用类型：变量的别名
  *      ——引用类型的行参和实参共享同一内存空间
+ *
+ *
+ *
  */
 TreeNode* build(int& position,string str){
 
@@ -94,6 +99,8 @@ void BinaryTree::J10_1() {
 
 /*
  * @Description 输出二叉树的后序遍历——"X E D G A F "
+ *
+ *
  * 输入：前序和中序——"FDXEAG  XDEFAG"
  * 关键是寻找切分点，递归构建左右子树
  */

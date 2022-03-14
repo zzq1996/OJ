@@ -1,12 +1,13 @@
 #include <iostream>
 #include "chapter12/DynamincProgramming.h"
+#include "chapter9/DFS.h"
 
 
 using namespace std;
 
 int main() {
-    DynamincProgramming b;
-    b.L12_7();
+    DFS b;
+    b.I9_5();
 
     return 0;
 }
