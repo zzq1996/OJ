@@ -3,9 +3,7 @@
 * @create 2022/3/3 19:19
 */
 
-//
-// Created by zhang zhiqiang on 2022/3/3.
-//
+
 
 
 #ifndef OJ_DIVIDEANDCONQUER_H

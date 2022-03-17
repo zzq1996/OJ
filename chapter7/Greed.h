@@ -3,9 +3,7 @@
 * @create 2022/3/3 15:49
 */
 
-//
-// Created by zhang zhiqiang on 2022/3/3.
-//
+
 
 
 #ifndef OJ_GREED_H

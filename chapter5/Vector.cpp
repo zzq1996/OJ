@@ -3,9 +3,7 @@
 * @create 2022/3/1 11:11
 */
 
-//
-// Created by zhang zhiqiang on 2022/3/1.
-//
+
 
 
 #include "Vector.h"

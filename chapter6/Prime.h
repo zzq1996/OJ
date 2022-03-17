@@ -27,6 +27,11 @@ public:
      */
     void f6_8();
 
+    /*
+     * @Description 完数的判断
+     */
+    void f6_13();
+
 
 
 

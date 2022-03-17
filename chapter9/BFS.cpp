@@ -3,9 +3,7 @@
 * @create 2022/3/4 12:31
 */
 
-//
-// Created by zhang zhiqiang on 2022/3/4.
-//
+
 
 /*
  * @Description 宽度优先搜索（Breadth First Search，BFS）：不断优先访问当前结点的邻居

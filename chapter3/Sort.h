@@ -3,9 +3,6 @@
 * @create 2022/2/25 19:31
 */
 
-//
-// Created by zhang zhiqiang on 2022/2/25.
-//
 
 
 #ifndef OJ_SORT_H

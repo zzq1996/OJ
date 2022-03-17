@@ -3,9 +3,7 @@
 * @create 2022/3/3 18:22
 */
 
-//
-// Created by zhang zhiqiang on 2022/3/3.
-//
+
 
 
 #ifndef OJ_RECURSION_H

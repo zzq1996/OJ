@@ -3,9 +3,7 @@
 * @create 2022/2/22 16:38
 */
 
-//
-// Created by zhang zhiqiang on 2022/2/22.
-//
+
 
 
 #include "Brute.h"

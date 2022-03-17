@@ -3,9 +3,7 @@
 * @create 2022/3/2 21:05
 */
 
-//
-// Created by zhang zhiqiang on 2022/3/2.
-//
+
 
 
 #include "Power.h"

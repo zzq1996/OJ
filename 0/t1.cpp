@@ -3,10 +3,6 @@
 * @create 2022/2/14 14:57
 */
 
-//
-// Created by zhang zhiqiang on 2022/2/14.
-//
-
 
 #include "t1.h"
 #include "iostream"
@@ -34,6 +30,9 @@ void t1::swap(int* a, int* b) {
 
 /*
  * @Description 求两个正整数的最大公因数
+ * 两个数的最大公约数 等于 其中较小的数字和两者之间余数的最大公约数
+ * GCD（较大数，较小数）= GCD（较小数，二者余数）
+ * GCD（被除数，除数）= GCD（除数，余数）
  */
 int t1::gcd(int a, int b) {
     int d;

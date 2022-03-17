@@ -3,9 +3,7 @@
 * @create 2022/2/14 14:57
 */
 
-//
-// Created by zhang zhiqiang on 2022/2/14.
-//
+
 
 
 #ifndef OJ_T1_H

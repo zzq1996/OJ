@@ -3,9 +3,7 @@
 * @create 2022/3/2 20:50
 */
 
-//
-// Created by zhang zhiqiang on 2022/3/2.
-//
+
 
 
 #ifndef OJ_PRIMEFACTOR_H
