@@ -12,56 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="Mon Mar 14 15:02:50 CST 2022&#10;新增递归：母牛算法">
+      <change afterPath="$PROJECT_DIR$/homework/H1/Topo.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/H1/Topo.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/H2/combination.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/H2/combination.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0/t1.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/0/t1.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0/t1.h" beforeDir="false" afterPath="$PROJECT_DIR$/0/t1.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/Init.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/Init.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter1/Init.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter1/Init.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10/BinarySearchTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/BinarySearchTree.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10/BinarySearchTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/BinarySearchTree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10/BinaryTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/BinaryTree.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10/BinaryTree.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/BinaryTree.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10/HashTable.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/HashTable.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10/HashTable.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/HashTable.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10/PriorityQueue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/PriorityQueue.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter10/PriorityQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter10/PriorityQueue.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/Brute.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/Brute.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter2/Brute.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter2/Brute.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/Search.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/Search.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/Search.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/Search.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/Sort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/Sort.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter3/Sort.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/Sort.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/Queue.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/Queue.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/Queue.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/Queue.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/Stack.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/Stack.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/Stack.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/Stack.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/Vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/Vector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter5/Vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter5/Vector.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/Base.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/Base.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/Base.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/Base.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/BigInteger.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/BigInteger.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/BigInteger.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/BigInteger.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/Lm.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/Lm.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/Lm.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/Lm.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/Power.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/Power.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/Power.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/Power.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/Prime.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/Prime.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/Prime.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/Prime.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/PrimeFactor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/PrimeFactor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/PrimeFactor.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/PrimeFactor.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/Greed.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/Greed.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter7/Greed.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/Greed.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/DivideAndConquer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter8/DivideAndConquer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/DivideAndConquer.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter8/DivideAndConquer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/Recursion.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter8/Recursion.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter8/Recursion.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter8/Recursion.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter9/BFS.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/BFS.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter9/BFS.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/BFS.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter9/DFS.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/DFS.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter9/DFS.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/DFS.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-6a5503447517af623b0d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-e9a717f4bcd82da380fe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-cb0891be835c8e665c03.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" afterDir="false" />
@@ -69,16 +26,17 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/0/t1.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/chapter1/init.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/chapter1/main.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/chapter2/Brute.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/OJ.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,8 +60,8 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/0/t1.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/0/t1.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/0/t1.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -132,18 +90,23 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homework/H1" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="OJ" type="CMakeRunConfiguration" factoryName="Application" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="OJ" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="OJ">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OJ" type="CMakeRunConfiguration" factoryName="Application" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="OJ" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="OJ">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -185,6 +148,9 @@
       <workItem from="1647171223463" duration="17826000" />
       <workItem from="1647419182014" duration="4000" />
       <workItem from="1647520278866" duration="868000" />
+      <workItem from="1663598559946" duration="2350000" />
+      <workItem from="1663646935138" duration="1104000" />
+      <workItem from="1664795747366" duration="1683000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1644841658545</created>

@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/zhang/CLionProjects/OJ/cmake-build-debug/
+cmake_ninja_workdir = /home/zhang/CLionProjects/OJ/cmake-build-debug/
 
 #############################################
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/zhang/CLionProjects/OJ/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/zhang/CLionProjects/OJ -B/Users/zhang/CLionProjects/OJ/cmake-build-debug
+  COMMAND = cd /home/zhang/CLionProjects/OJ/cmake-build-debug && /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/zhang/CLionProjects/OJ -B/home/zhang/CLionProjects/OJ/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -57,7 +57,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/zhang/CLionProjects/OJ/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /home/zhang/CLionProjects/OJ/cmake-build-debug && /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -72,197 +72,197 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_OJ: phony || CMakeFiles/OJ.dir
 
-build CMakeFiles/OJ.dir/main.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/main.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/main.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/main.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/main.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir
 
-build CMakeFiles/OJ.dir/0/t1.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/0/t1.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/0/t1.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/0/t1.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/0/t1.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/0
 
-build CMakeFiles/OJ.dir/chapter1/Init.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter1/Init.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter1/Init.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter1/Init.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter1/Init.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter1
 
-build CMakeFiles/OJ.dir/chapter2/Brute.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter2/Brute.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter2/Brute.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter2/Brute.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter2/Brute.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter2
 
-build CMakeFiles/OJ.dir/chapter3/Sort.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter3/Sort.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter3/Sort.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter3/Sort.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter3/Sort.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter3
 
-build CMakeFiles/OJ.dir/chapter3/Search.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter3/Search.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter3/Search.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter3/Search.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter3/Search.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter3
 
-build CMakeFiles/OJ.dir/chapter4/dString.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter4/dString.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter4/dString.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter4/dString.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter4/dString.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter4
 
-build CMakeFiles/OJ.dir/chapter5/Vector.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter5/Vector.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter5/Vector.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter5/Vector.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter5/Vector.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter5
 
-build CMakeFiles/OJ.dir/chapter5/Queue.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter5/Queue.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter5/Queue.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter5/Queue.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter5/Queue.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter5
 
-build CMakeFiles/OJ.dir/chapter5/Stack.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter5/Stack.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter5/Stack.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter5/Stack.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter5/Stack.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter5
 
-build CMakeFiles/OJ.dir/chapter6/Base.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter6/Base.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter6/Base.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter6/Base.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter6/Base.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter6
 
-build CMakeFiles/OJ.dir/chapter6/Lm.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter6/Lm.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter6/Lm.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter6/Lm.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter6/Lm.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter6
 
-build CMakeFiles/OJ.dir/chapter6/Prime.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter6/Prime.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter6/Prime.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter6/Prime.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter6/Prime.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter6
 
-build CMakeFiles/OJ.dir/chapter6/PrimeFactor.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter6/PrimeFactor.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter6/PrimeFactor.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter6/PrimeFactor.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter6/PrimeFactor.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter6
 
-build CMakeFiles/OJ.dir/chapter6/Power.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter6/Power.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter6/Power.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter6/Power.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter6/Power.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter6
 
-build CMakeFiles/OJ.dir/chapter6/BigInteger.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter6/BigInteger.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter6/BigInteger.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter6/BigInteger.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter6/BigInteger.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter6
 
-build CMakeFiles/OJ.dir/chapter7/Greed.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter7/Greed.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter7/Greed.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter7/Greed.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter7/Greed.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter7
 
-build CMakeFiles/OJ.dir/chapter8/Recursion.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter8/Recursion.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter8/Recursion.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter8/Recursion.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter8/Recursion.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter8
 
-build CMakeFiles/OJ.dir/chapter8/DivideAndConquer.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter8/DivideAndConquer.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter8/DivideAndConquer.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter8/DivideAndConquer.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter8/DivideAndConquer.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter8
 
-build CMakeFiles/OJ.dir/chapter9/BFS.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter9/BFS.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter9/BFS.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter9/BFS.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter9/BFS.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter9
 
-build CMakeFiles/OJ.dir/chapter9/DFS.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter9/DFS.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter9/DFS.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter9/DFS.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter9/DFS.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter9
 
-build CMakeFiles/OJ.dir/chapter10/BinaryTree.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter10/BinaryTree.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter10/BinaryTree.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter10/BinaryTree.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter10/BinaryTree.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter10
 
-build CMakeFiles/OJ.dir/chapter10/BinarySearchTree.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter10/BinarySearchTree.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter10/BinarySearchTree.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter10/BinarySearchTree.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter10/BinarySearchTree.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter10
 
-build CMakeFiles/OJ.dir/chapter10/PriorityQueue.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter10/PriorityQueue.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter10/PriorityQueue.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter10/PriorityQueue.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter10/PriorityQueue.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter10
 
-build CMakeFiles/OJ.dir/chapter10/HashTable.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter10/HashTable.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter10/HashTable.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter10/HashTable.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter10/HashTable.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter10
 
-build CMakeFiles/OJ.dir/chapter11/SSSP.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter11/SSSP.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter11/SSSP.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter11/SSSP.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter11/SSSP.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter11
 
-build CMakeFiles/OJ.dir/chapter11/UnionFind.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter11/UnionFind.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter11/UnionFind.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter11/UnionFind.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter11/UnionFind.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter11
 
-build CMakeFiles/OJ.dir/chapter11/TopologicalSort.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter11/TopologicalSort.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter11/TopologicalSort.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter11/TopologicalSort.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter11/TopologicalSort.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter11
 
-build CMakeFiles/OJ.dir/chapter11/CriticalPath.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter11/CriticalPath.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter11/CriticalPath.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter11/CriticalPath.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter11/CriticalPath.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter11
 
-build CMakeFiles/OJ.dir/chapter12/DynamincProgramming.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/chapter12/DynamincProgramming.cpp || cmake_object_order_depends_target_OJ
+build CMakeFiles/OJ.dir/chapter12/DynamincProgramming.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/chapter12/DynamincProgramming.cpp || cmake_object_order_depends_target_OJ
   DEP_FILE = CMakeFiles/OJ.dir/chapter12/DynamincProgramming.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter12
 
-build CMakeFiles/OJ.dir/0/y.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/0/y.cpp || cmake_object_order_depends_target_OJ
-  DEP_FILE = CMakeFiles/OJ.dir/0/y.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+build CMakeFiles/OJ.dir/homework/H1/Topo.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/homework/H1/Topo.cpp || cmake_object_order_depends_target_OJ
+  DEP_FILE = CMakeFiles/OJ.dir/homework/H1/Topo.cpp.o.d
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
-  OBJECT_FILE_DIR = CMakeFiles/OJ.dir/0
+  OBJECT_FILE_DIR = CMakeFiles/OJ.dir/homework/H1
 
-build CMakeFiles/OJ.dir/0/k.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProjects/OJ/0/k.cpp || cmake_object_order_depends_target_OJ
-  DEP_FILE = CMakeFiles/OJ.dir/0/k.cpp.o.d
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++11
+build CMakeFiles/OJ.dir/homework/H2/combination.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/homework/H2/combination.cpp || cmake_object_order_depends_target_OJ
+  DEP_FILE = CMakeFiles/OJ.dir/homework/H2/combination.cpp.o.d
+  FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
-  OBJECT_FILE_DIR = CMakeFiles/OJ.dir/0
+  OBJECT_FILE_DIR = CMakeFiles/OJ.dir/homework/H2
 
 
 # =============================================================================
@@ -272,8 +272,8 @@ build CMakeFiles/OJ.dir/0/k.cpp.o: CXX_COMPILER__OJ_Debug /Users/zhang/CLionProj
 #############################################
 # Link the executable OJ
 
-build OJ: CXX_EXECUTABLE_LINKER__OJ_Debug CMakeFiles/OJ.dir/main.cpp.o CMakeFiles/OJ.dir/0/t1.cpp.o CMakeFiles/OJ.dir/chapter1/Init.cpp.o CMakeFiles/OJ.dir/chapter2/Brute.cpp.o CMakeFiles/OJ.dir/chapter3/Sort.cpp.o CMakeFiles/OJ.dir/chapter3/Search.cpp.o CMakeFiles/OJ.dir/chapter4/dString.cpp.o CMakeFiles/OJ.dir/chapter5/Vector.cpp.o CMakeFiles/OJ.dir/chapter5/Queue.cpp.o CMakeFiles/OJ.dir/chapter5/Stack.cpp.o CMakeFiles/OJ.dir/chapter6/Base.cpp.o CMakeFiles/OJ.dir/chapter6/Lm.cpp.o CMakeFiles/OJ.dir/chapter6/Prime.cpp.o CMakeFiles/OJ.dir/chapter6/PrimeFactor.cpp.o CMakeFiles/OJ.dir/chapter6/Power.cpp.o CMakeFiles/OJ.dir/chapter6/BigInteger.cpp.o CMakeFiles/OJ.dir/chapter7/Greed.cpp.o CMakeFiles/OJ.dir/chapter8/Recursion.cpp.o CMakeFiles/OJ.dir/chapter8/DivideAndConquer.cpp.o CMakeFiles/OJ.dir/chapter9/BFS.cpp.o CMakeFiles/OJ.dir/chapter9/DFS.cpp.o CMakeFiles/OJ.dir/chapter10/BinaryTree.cpp.o CMakeFiles/OJ.dir/chapter10/BinarySearchTree.cpp.o CMakeFiles/OJ.dir/chapter10/PriorityQueue.cpp.o CMakeFiles/OJ.dir/chapter10/HashTable.cpp.o CMakeFiles/OJ.dir/chapter11/SSSP.cpp.o CMakeFiles/OJ.dir/chapter11/UnionFind.cpp.o CMakeFiles/OJ.dir/chapter11/TopologicalSort.cpp.o CMakeFiles/OJ.dir/chapter11/CriticalPath.cpp.o CMakeFiles/OJ.dir/chapter12/DynamincProgramming.cpp.o CMakeFiles/OJ.dir/0/y.cpp.o CMakeFiles/OJ.dir/0/k.cpp.o
-  FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+build OJ: CXX_EXECUTABLE_LINKER__OJ_Debug CMakeFiles/OJ.dir/main.cpp.o CMakeFiles/OJ.dir/0/t1.cpp.o CMakeFiles/OJ.dir/chapter1/Init.cpp.o CMakeFiles/OJ.dir/chapter2/Brute.cpp.o CMakeFiles/OJ.dir/chapter3/Sort.cpp.o CMakeFiles/OJ.dir/chapter3/Search.cpp.o CMakeFiles/OJ.dir/chapter4/dString.cpp.o CMakeFiles/OJ.dir/chapter5/Vector.cpp.o CMakeFiles/OJ.dir/chapter5/Queue.cpp.o CMakeFiles/OJ.dir/chapter5/Stack.cpp.o CMakeFiles/OJ.dir/chapter6/Base.cpp.o CMakeFiles/OJ.dir/chapter6/Lm.cpp.o CMakeFiles/OJ.dir/chapter6/Prime.cpp.o CMakeFiles/OJ.dir/chapter6/PrimeFactor.cpp.o CMakeFiles/OJ.dir/chapter6/Power.cpp.o CMakeFiles/OJ.dir/chapter6/BigInteger.cpp.o CMakeFiles/OJ.dir/chapter7/Greed.cpp.o CMakeFiles/OJ.dir/chapter8/Recursion.cpp.o CMakeFiles/OJ.dir/chapter8/DivideAndConquer.cpp.o CMakeFiles/OJ.dir/chapter9/BFS.cpp.o CMakeFiles/OJ.dir/chapter9/DFS.cpp.o CMakeFiles/OJ.dir/chapter10/BinaryTree.cpp.o CMakeFiles/OJ.dir/chapter10/BinarySearchTree.cpp.o CMakeFiles/OJ.dir/chapter10/PriorityQueue.cpp.o CMakeFiles/OJ.dir/chapter10/HashTable.cpp.o CMakeFiles/OJ.dir/chapter11/SSSP.cpp.o CMakeFiles/OJ.dir/chapter11/UnionFind.cpp.o CMakeFiles/OJ.dir/chapter11/TopologicalSort.cpp.o CMakeFiles/OJ.dir/chapter11/CriticalPath.cpp.o CMakeFiles/OJ.dir/chapter12/DynamincProgramming.cpp.o CMakeFiles/OJ.dir/homework/H1/Topo.cpp.o CMakeFiles/OJ.dir/homework/H2/combination.cpp.o
+  FLAGS = -g
   OBJECT_DIR = CMakeFiles/OJ.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -289,7 +289,7 @@ build OJ: CXX_EXECUTABLE_LINKER__OJ_Debug CMakeFiles/OJ.dir/main.cpp.o CMakeFile
 # =============================================================================
 
 #############################################
-# Folder: /Users/zhang/CLionProjects/OJ/cmake-build-debug
+# Folder: /home/zhang/CLionProjects/OJ/cmake-build-debug
 
 build all: phony OJ
 
@@ -300,14 +300,14 @@ build all: phony OJ
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCInformation.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-C.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-C.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
+build ../CMakeLists.txt /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCInformation.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCXXInformation.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeGenericSystem.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-C.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU-CXX.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Compiler/GNU.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-C.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU-CXX.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux-GNU.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/Linux.cmake /home/zhang/workspace/clion-2021.3.4/bin/cmake/linux/share/cmake-3.21/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.21.1/CMakeCCompiler.cmake CMakeFiles/3.21.1/CMakeCXXCompiler.cmake CMakeFiles/3.21.1/CMakeSystem.cmake: phony
 
 
 #############################################
