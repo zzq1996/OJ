@@ -4,6 +4,7 @@
 */
 
 
+#include <algorithm>
 #include "UnionFind.h"
 #include "iostream"
 

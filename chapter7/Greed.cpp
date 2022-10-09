@@ -20,6 +20,7 @@
 
 
 
+#include <algorithm>
 #include "Greed.h"
 #include "iostream"
 

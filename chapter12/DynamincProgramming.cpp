@@ -4,6 +4,7 @@
 */
 
 
+#include <cstring>
 #include "DynamincProgramming.h"
 #include "iostream"
 

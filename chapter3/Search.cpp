@@ -6,6 +6,7 @@
 
 
 
+#include <algorithm>
 #include "Search.h"
 #include "iostream"
 

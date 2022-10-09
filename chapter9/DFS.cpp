@@ -5,7 +5,8 @@
 
 
 
-
+#include <algorithm>
+#include <cstring>
 #include "DFS.h"
 #include "iostream"
 #include "stack"

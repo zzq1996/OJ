@@ -18,6 +18,7 @@
  */
 
 
+#include <cstring>
 #include "BFS.h"
 #include "queue"
 #include "iostream"

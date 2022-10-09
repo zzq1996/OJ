@@ -6,6 +6,7 @@
 
 
 
+#include <algorithm>
 #include "Sort.h"
 #include "iostream"
 

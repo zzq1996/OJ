@@ -11,32 +11,31 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="Mon Mar 14 15:02:50 CST 2022&#10;新增递归：母牛算法">
-      <change afterPath="$PROJECT_DIR$/homework/H1/Topo.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/H1/Topo.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/H2/combination.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/H2/combination.h" afterDir="false" />
+    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/homework/H1/P1_有限拓扑构造及计数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/H2/P2_生成组合数.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-cb0891be835c8e665c03.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/CriticalPath.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/CriticalPath.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/SSSP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/SSSP.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/TopologicalSort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/TopologicalSort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter11/UnionFind.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter11/UnionFind.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter12/DynamincProgramming.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter12/DynamincProgramming.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3/Search.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/Search.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter3/Sort.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter3/Sort.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter4/dString.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter4/dString.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter7/Greed.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter7/Greed.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter9/BFS.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/BFS.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter9/DFS.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/chapter9/DFS.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdC/CMakeCCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CompilerIdCXX/CMakeCXXCompilerId.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OJ" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OJ" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/H1/Topo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/homework/H1/topology.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/H1/Topo.h" beforeDir="false" afterPath="$PROJECT_DIR$/homework/H1/topology.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/H2/combination.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/homework/H2/combi.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework/H2/combination.h" beforeDir="false" afterPath="$PROJECT_DIR$/homework/H2/combi.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +88,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework/H2" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -96,17 +96,16 @@
     <option name="showLigatures" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homework/H2" />
+      <recent name="$PROJECT_DIR$/homework/H1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/homework/H1" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="OJ" type="CMakeRunConfiguration" factoryName="Application" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="OJ" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="OJ">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -151,6 +150,8 @@
       <workItem from="1663598559946" duration="2350000" />
       <workItem from="1663646935138" duration="1104000" />
       <workItem from="1664795747366" duration="1683000" />
+      <workItem from="1664797436221" duration="674000" />
+      <workItem from="1665200650496" duration="13245000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1644841658545</created>
@@ -292,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647241397374</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Mon Oct  3 07:44:48 PM CST 2022">
+      <created>1664797503073</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1664797503073</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +339,8 @@
     <MESSAGE value="LCS finished" />
     <MESSAGE value="Wed Mar  9 16:00:39 CST 2022：修改了目录，还有dp算法没敲" />
     <MESSAGE value="Mon Mar 14 15:02:50 CST 2022&#10;新增递归：母牛算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mon Mar 14 15:02:50 CST 2022&#10;新增递归：母牛算法" />
+    <MESSAGE value="Mon Oct  3 07:44:48 PM CST 2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mon Oct  3 07:44:48 PM CST 2022" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -7,6 +7,8 @@
 
 
 #include <vector>
+#include <climits>
+#include <cstring>
 #include "CriticalPath.h"
 #include "iostream"
 #include "queue"

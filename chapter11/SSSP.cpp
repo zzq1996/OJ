@@ -5,6 +5,8 @@
 
 
 
+#include <climits>
+#include <cstring>
 #include "SSSP.h"
 #include "iostream"
 #include "vector"

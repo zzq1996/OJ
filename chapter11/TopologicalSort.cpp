@@ -5,6 +5,7 @@
 
 
 
+#include <cstring>
 #include "TopologicalSort.h"
 #include "iostream"
 #include "vector"
