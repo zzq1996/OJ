@@ -89,6 +89,9 @@ void combi::isResult(int k) {
             location.push_back(i);//保存‘1’的下标位置
             count++;
         }
+        if(count>k){
+            break;
+        }
     }
     if (count==k){
         for (int i = location.size()-1; i >= 0; --i) {

@@ -252,17 +252,23 @@ build CMakeFiles/OJ.dir/chapter12/DynamincProgramming.cpp.o: CXX_COMPILER__OJ_De
   OBJECT_DIR = CMakeFiles/OJ.dir
   OBJECT_FILE_DIR = CMakeFiles/OJ.dir/chapter12
 
-build CMakeFiles/OJ.dir/homework/H1/topology.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/homework/H1/topology.cpp || cmake_object_order_depends_target_OJ
-  DEP_FILE = CMakeFiles/OJ.dir/homework/H1/topology.cpp.o.d
+build CMakeFiles/OJ.dir/homework/H1_Topo/topology.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/homework/H1_Topo/topology.cpp || cmake_object_order_depends_target_OJ
+  DEP_FILE = CMakeFiles/OJ.dir/homework/H1_Topo/topology.cpp.o.d
   FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
-  OBJECT_FILE_DIR = CMakeFiles/OJ.dir/homework/H1
+  OBJECT_FILE_DIR = CMakeFiles/OJ.dir/homework/H1_Topo
 
-build CMakeFiles/OJ.dir/homework/H2/combi.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/homework/H2/combi.cpp || cmake_object_order_depends_target_OJ
-  DEP_FILE = CMakeFiles/OJ.dir/homework/H2/combi.cpp.o.d
+build CMakeFiles/OJ.dir/homework/H2_NumOfCombi/combi.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/homework/H2_NumOfCombi/combi.cpp || cmake_object_order_depends_target_OJ
+  DEP_FILE = CMakeFiles/OJ.dir/homework/H2_NumOfCombi/combi.cpp.o.d
   FLAGS = -g -std=gnu++11
   OBJECT_DIR = CMakeFiles/OJ.dir
-  OBJECT_FILE_DIR = CMakeFiles/OJ.dir/homework/H2
+  OBJECT_FILE_DIR = CMakeFiles/OJ.dir/homework/H2_NumOfCombi
+
+build CMakeFiles/OJ.dir/homework/H3_RoundRobinTable/schedule.cpp.o: CXX_COMPILER__OJ_Debug /home/zhang/CLionProjects/OJ/homework/H3_RoundRobinTable/schedule.cpp || cmake_object_order_depends_target_OJ
+  DEP_FILE = CMakeFiles/OJ.dir/homework/H3_RoundRobinTable/schedule.cpp.o.d
+  FLAGS = -g -std=gnu++11
+  OBJECT_DIR = CMakeFiles/OJ.dir
+  OBJECT_FILE_DIR = CMakeFiles/OJ.dir/homework/H3_RoundRobinTable
 
 
 # =============================================================================
@@ -272,7 +278,7 @@ build CMakeFiles/OJ.dir/homework/H2/combi.cpp.o: CXX_COMPILER__OJ_Debug /home/zh
 #############################################
 # Link the executable OJ
 
-build OJ: CXX_EXECUTABLE_LINKER__OJ_Debug CMakeFiles/OJ.dir/main.cpp.o CMakeFiles/OJ.dir/0/t1.cpp.o CMakeFiles/OJ.dir/chapter1/Init.cpp.o CMakeFiles/OJ.dir/chapter2/Brute.cpp.o CMakeFiles/OJ.dir/chapter3/Sort.cpp.o CMakeFiles/OJ.dir/chapter3/Search.cpp.o CMakeFiles/OJ.dir/chapter4/dString.cpp.o CMakeFiles/OJ.dir/chapter5/Vector.cpp.o CMakeFiles/OJ.dir/chapter5/Queue.cpp.o CMakeFiles/OJ.dir/chapter5/Stack.cpp.o CMakeFiles/OJ.dir/chapter6/Base.cpp.o CMakeFiles/OJ.dir/chapter6/Lm.cpp.o CMakeFiles/OJ.dir/chapter6/Prime.cpp.o CMakeFiles/OJ.dir/chapter6/PrimeFactor.cpp.o CMakeFiles/OJ.dir/chapter6/Power.cpp.o CMakeFiles/OJ.dir/chapter6/BigInteger.cpp.o CMakeFiles/OJ.dir/chapter7/Greed.cpp.o CMakeFiles/OJ.dir/chapter8/Recursion.cpp.o CMakeFiles/OJ.dir/chapter8/DivideAndConquer.cpp.o CMakeFiles/OJ.dir/chapter9/BFS.cpp.o CMakeFiles/OJ.dir/chapter9/DFS.cpp.o CMakeFiles/OJ.dir/chapter10/BinaryTree.cpp.o CMakeFiles/OJ.dir/chapter10/BinarySearchTree.cpp.o CMakeFiles/OJ.dir/chapter10/PriorityQueue.cpp.o CMakeFiles/OJ.dir/chapter10/HashTable.cpp.o CMakeFiles/OJ.dir/chapter11/SSSP.cpp.o CMakeFiles/OJ.dir/chapter11/UnionFind.cpp.o CMakeFiles/OJ.dir/chapter11/TopologicalSort.cpp.o CMakeFiles/OJ.dir/chapter11/CriticalPath.cpp.o CMakeFiles/OJ.dir/chapter12/DynamincProgramming.cpp.o CMakeFiles/OJ.dir/homework/H1/topology.cpp.o CMakeFiles/OJ.dir/homework/H2/combi.cpp.o
+build OJ: CXX_EXECUTABLE_LINKER__OJ_Debug CMakeFiles/OJ.dir/main.cpp.o CMakeFiles/OJ.dir/0/t1.cpp.o CMakeFiles/OJ.dir/chapter1/Init.cpp.o CMakeFiles/OJ.dir/chapter2/Brute.cpp.o CMakeFiles/OJ.dir/chapter3/Sort.cpp.o CMakeFiles/OJ.dir/chapter3/Search.cpp.o CMakeFiles/OJ.dir/chapter4/dString.cpp.o CMakeFiles/OJ.dir/chapter5/Vector.cpp.o CMakeFiles/OJ.dir/chapter5/Queue.cpp.o CMakeFiles/OJ.dir/chapter5/Stack.cpp.o CMakeFiles/OJ.dir/chapter6/Base.cpp.o CMakeFiles/OJ.dir/chapter6/Lm.cpp.o CMakeFiles/OJ.dir/chapter6/Prime.cpp.o CMakeFiles/OJ.dir/chapter6/PrimeFactor.cpp.o CMakeFiles/OJ.dir/chapter6/Power.cpp.o CMakeFiles/OJ.dir/chapter6/BigInteger.cpp.o CMakeFiles/OJ.dir/chapter7/Greed.cpp.o CMakeFiles/OJ.dir/chapter8/Recursion.cpp.o CMakeFiles/OJ.dir/chapter8/DivideAndConquer.cpp.o CMakeFiles/OJ.dir/chapter9/BFS.cpp.o CMakeFiles/OJ.dir/chapter9/DFS.cpp.o CMakeFiles/OJ.dir/chapter10/BinaryTree.cpp.o CMakeFiles/OJ.dir/chapter10/BinarySearchTree.cpp.o CMakeFiles/OJ.dir/chapter10/PriorityQueue.cpp.o CMakeFiles/OJ.dir/chapter10/HashTable.cpp.o CMakeFiles/OJ.dir/chapter11/SSSP.cpp.o CMakeFiles/OJ.dir/chapter11/UnionFind.cpp.o CMakeFiles/OJ.dir/chapter11/TopologicalSort.cpp.o CMakeFiles/OJ.dir/chapter11/CriticalPath.cpp.o CMakeFiles/OJ.dir/chapter12/DynamincProgramming.cpp.o CMakeFiles/OJ.dir/homework/H1_Topo/topology.cpp.o CMakeFiles/OJ.dir/homework/H2_NumOfCombi/combi.cpp.o CMakeFiles/OJ.dir/homework/H3_RoundRobinTable/schedule.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/OJ.dir
   POST_BUILD = :
