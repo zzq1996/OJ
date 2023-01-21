@@ -29,7 +29,6 @@ public:
     static void CountTp3(int n);//主函数3
     static void comb2(int* T,int p,int q);//递归生成可行集族（P个数取q个数的组合）
 
-
 };
 
 
