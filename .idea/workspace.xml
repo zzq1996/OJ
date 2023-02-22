@@ -11,26 +11,26 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/homework/H2_NumOfCombi/P2_生成组合数.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/H3_RoundRobinTable/P3_循环日程表.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/H3_RoundRobinTable/schedule.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework/H3_RoundRobinTable/schedule.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/OJ.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/OJ.iml" afterDir="false" />
+    <list default="true" id="3384d7e1-c231-49ab-9bb1-12e5fac8d824" name="Changes" comment="Wed Feb 22 01:12:04 PM CST 2023">
+      <change afterPath="$PROJECT_DIR$/homework/H4_0-1/人民币找零问题满足贪心算法.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/H4_0-1/对0-1背包问题具有最优子结构性质的证明.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework/H4_0-1/证明背包问题具有贪心选择性质.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/OJ" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/OJ" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.21.1/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/H1/P1_有限拓扑构造及计数.md" beforeDir="false" afterPath="$PROJECT_DIR$/homework/H1_Topo/P1_有限拓扑构造及计数.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/H1/topology.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/homework/H1_Topo/topology.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/H1/topology.h" beforeDir="false" afterPath="$PROJECT_DIR$/homework/H1_Topo/topology.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/H2/P2_生成组合数.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/H2/combi.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/homework/H2_NumOfCombi/combi.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework/H2/combi.h" beforeDir="false" afterPath="$PROJECT_DIR$/homework/H2_NumOfCombi/combi.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,9 +82,9 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/homework/H2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReaderModeSettings">
     <option name="showLigatures" value="true" />
@@ -95,16 +95,12 @@
       <recent name="$PROJECT_DIR$/homework/H1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/homework/H4_0-1" />
       <recent name="$PROJECT_DIR$/homework/H1" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="OJ" type="CMakeRunConfiguration" factoryName="Application" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OJ" TARGET_NAME="OJ" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OJ" RUN_TARGET_NAME="OJ">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -152,7 +148,12 @@
       <workItem from="1664797436221" duration="674000" />
       <workItem from="1665200650496" duration="17478000" />
       <workItem from="1665460692984" duration="686000" />
-      <workItem from="1665642094585" duration="11570000" />
+      <workItem from="1665642094585" duration="11633000" />
+      <workItem from="1666674006314" duration="13000" />
+      <workItem from="1670763384312" duration="1000" />
+      <workItem from="1670763652753" duration="9000" />
+      <workItem from="1670763677720" duration="2000" />
+      <workItem from="1677042646326" duration="804000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1644841658545</created>
@@ -308,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665278721453</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Sun Oct 16 01:30:13 PM CST 2022">
+      <created>1665898225599</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665898225599</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +357,8 @@
     <MESSAGE value="Mon Mar 14 15:02:50 CST 2022&#10;新增递归：母牛算法" />
     <MESSAGE value="Mon Oct  3 07:44:48 PM CST 2022" />
     <MESSAGE value="Sun Oct  9 09:25:08 AM CST 2022" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sun Oct  9 09:25:08 AM CST 2022" />
+    <MESSAGE value="Sun Oct 16 01:30:13 PM CST 2022" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sun Oct 16 01:30:13 PM CST 2022" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
